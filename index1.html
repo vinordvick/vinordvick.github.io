@@ -15,20 +15,24 @@
     <body>
     <header>
         <nav>
-            <div class="logo">Андрей Браун</div>
+
+            
+            <div class="logo">Андрей Браун</div> 
             <div class="menu">
                 <ul>
-                    <li>обо мне</li>
-                    <li>УСЛУГИ</li>
-                    <li>КЕЙСЫ</li>
-                    <li>ПРАЙС</li>
-                    <li>ОТЗЫВЫ</li>
-                    <li>КОНТАКТЫ</li>
+                    <li><a href="#t1">обо мне</a> </li>
+                    <li><a href="#t2">УСЛУГИ</a> </li>
+                    <li><a href="#t3">КЕЙСЫ</a> </li>
+                    <li><a href="#t4">ПРАЙС</a> </li>
+                    <li><a href="#t5">ОТЗЫВЫ</a> </li>
+                    <li><a href="#t6">КОНТАКТЫ</a> </li>
                 </ul>
             </div>  
         </nav>
     </header>
 
+    <main>
+    <section class="main">
 <div class="main2">
 <div class="main"><div class="title__container">
 
@@ -36,17 +40,17 @@
     <h4>Фулл стек веб-разработчик</h4>
 
     <form action="a">
-        <input type="submit" value="Обо мне">
-        <input type="submit" value="Мои работы"
+        <input type="button" value="Обо мне">
+        <input type="button" value="Мои работы">
     </form>
 </div>
 </div>
 </div>
+</main>
 <div>
 <div class="heading">
-<p><h2>Обо мне</h2></p>
+<p><h2 id="t1">Обо мне</h2></p>
 </div>
-
 <hr style="background: #d17700; height: 4px; width:70px; border-radius: 15px" />
 <div class="main1"></div>
 
@@ -60,17 +64,17 @@
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, ipsa!</p>
 </div>
 
-<div class="downlade">
-    
+<div class="downlade"><div class="resume">
 <form action="a">
     <input type="submit" value="Скачать резюме">
 </form>
 </div>
 </div>
+</div>
 
 <div class="container2">
 <div class="be_able_to">
-<p><h2>Что я умею</h2></p>
+<p><h2 id="t2">Что я умею</h2></p>
 <hr style="background: #d17700; height: 4px; width:70px; border-radius: 15px; margin:-70px 640px" />
 </div>
 
@@ -95,7 +99,7 @@
 </div>
     
 <div class="case">   
-<h2>Кейсы</h2>
+<h2 id="t3">Кейсы</h2>
 </div> 
 
 <hr style="background: #d17700; height: 4px; width:70px; border-radius: 15px" />
@@ -125,14 +129,14 @@
 </div>
 <div class="son">
 <form action="a">
-    <input type="submit" value="VISIT LIVE SITE"
+    <input type="button" value="VISIT LIVE SITE">
 </form>
 </div>
 
 <div class="price">
-<h2>Расчет стоимости</h2>
+<h2 id="t4">Расчет стоимости</h2>
 </div>
-
+    <div  class="box">
 <div class="choice">
 <h4 >ТИП САЙТА</h4>
 <form action="a">
@@ -174,11 +178,21 @@
     <p>0</p>
 </div>
 
+<div class="request">
+    <form action="a">
+        <input type="button" value="Оставить заявку">
+    </form>
+</div>
+</div>
+<div class="block">
+<section class="sec1">
+    <div class="sec-text">
 <div class="keyboard">
     <div class="static">
-        <p><h2>НЕМНОГО СТАТИСТИКИ</h2></p>
+        <p><h2 id="t5">НЕМНОГО СТАТИСТИКИ</h2></p>
         <hr style="background: #d17700; height: 4px; width:70px; border-radius: 15px; margin-left: 650px"/>
     </div>
+   
     <div class="image4_2"></div>
     <div class="numbers">
         <span>120</span>
@@ -196,12 +210,18 @@
     </tr>
     </table>
 </div>
+</div>
+</section>
+</div>
 
     <div class="review">
-        <h2>ОТЗЫВЫ</h2>
+        <h2 id="t6">ОТЗЫВЫ</h2>
     </div>
 <hr style="background: #d17700; height: 4px; width:70px; border-radius: 15px" />
 
+<div class="radio">
+    <form action="a">
+        <label for="radi">
 <div class="director_photo"></div>
 
 <div class="gazprom">
@@ -212,7 +232,12 @@
 <div class="director">
     <p style="color:#243042"><b>Михаил</b>, Ген директор ПАО "Газпром"</p>
 </div>
-
+</label>
+    <input id="radi" type="radio" checked name="name">
+    <input id="radi2" type="radio" name="name">
+    <input id="radi3" type="radio" name="name">
+</form>
+</div>
 
 <div class="cont_photo">
 <div class="contacts">
@@ -225,8 +250,11 @@
 </div>
 <div class="contacts_im"></div>
 <div class="prospect">
-    <div class="pr">
-   <span>Санкт-Петербург<br> Невский проспект 11</span> </div>
+    <a href="a">
+        <div class="pr">
+            <span>Санкт-Петербург<br> Невский проспект 11</span>
+        </div>
+    </a>
    <div class="info">
    <span><a href="info@companyname.com">info@companyname.com</a></span> 
    <span><a href="+7 999 999-99-99">+7 999 999-99-99</a></span> 
@@ -234,7 +262,7 @@
 </div>
 
 <div class="message">
-    <p>ОСТАВЬТЕ МНЕ СООБЩЕНИЕ</p>
+    <h4>ОСТАВЬТЕ МНЕ СООБЩЕНИЕ</h4>
 </div>
 
 <form action="a">
@@ -249,19 +277,25 @@
 </div>
 </div>
 <div class="textarea">
-   <p><textarea name="name1" id="1" cols="46" rows="4" placeholder="Сообщение"></textarea></p>
+   <p><textarea name="text" id="1" cols="46" rows="4" placeholder="Сообщение"></textarea></p>
 </div>
 <div class="send">
-     <input type="reset" value="Отправить">
+    
+     <button class="mail-btn" type="submit">Отправить</button>
 </div>
+    </form>
 
 <div class="network"></div>
 </div>
 
 <div class="map">
+    <a href="dog.html">
 <div class="here">
+<form action="a">
     <input type="submit" value="I'M HERE">
+</form>
 </div>
+</a>
 </div>
 
 <div class="nav">
